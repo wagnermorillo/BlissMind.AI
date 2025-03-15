@@ -1,0 +1,78 @@
+.header-section {
+    padding: 1rem 5rem;
+  }
+  
+  .logo-container {
+    display: flex;
+  }
+  
+  .not-hidden {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 890px) {
+    .not-hidden {
+      display: none;
+    }
+  
+    .burger {
+      display: block;
+    }
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger .outline {
+    font-size: 22px;
+    fill: #2e186a;
+  }
+  
+  .custom-nav-link-small {
+    font-size: 1.2rem;
+    color: #18216d;
+    transition: color 0.2s ease-in;
+    margin: 0.5rem 2rem;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .custom-nav-link-small {
+      margin: 1.25rem 2rem;
+    }
+  }
+  
+  .label {
+    font-weight: 500;
+    color: #404041;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    cursor: pointer;
+  }
+  
+  .menu {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .nav-span {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-span:hover,
+  .nav-span:active,
+  .nav-span:focus {
+    color: rgb(255, 130, 92);
+    text-decoration: rgb(255, 130, 92) wavy underline;
+  }
+  .menu-items {
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+  } 
+  

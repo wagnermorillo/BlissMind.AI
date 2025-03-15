@@ -16,7 +16,20 @@ export const Title = styled("h4")`
   }
 `;
 
-export const NavLink = styled("Link")`
+// export const NavLink = styled("Link")`
+//   display: block;
+//   font-size: 1rem;
+//   margin-bottom: 0.625rem;
+//   transition: all 0.2s ease-in-out;
+
+//   &:hover,
+//   &:active,
+//   &:focus {
+//     color: #15418e;
+//   }
+// `;
+
+export const NavLink = styled.a`
   display: block;
   font-size: 1rem;
   margin-bottom: 0.625rem;

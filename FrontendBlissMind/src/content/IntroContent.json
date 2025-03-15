@@ -1,13 +1,14 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Bienvenido a BlissMind",
+  "text": "BlissMind es una plataforma web innovadora impulsada por inteligencia artificial, diseñada para mejorar el acceso y la calidad de la atención en salud mental. Con un enfoque integral, combina diagnóstico personalizado, recomendaciones basadas en IA y acceso a profesionales para un bienestar emocional más efectivo.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Descubre más"
     },
     {
-      "title": "Learn more",
+      "title": "Aprende más",
       "color": "#fff"
     }
   ]
 }
+

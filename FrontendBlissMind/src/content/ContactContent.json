@@ -1,4 +1,5 @@
 {
-    "title": "Contact form",
-    "text": "The following form demonstrates form validation in action. Contact form component reduces the amount of time it is being re-rendered by the user as it embraces uncontrolled form validation to reduce any unnecessary performance penalty."
-}
+    "title": "Formulario de contacto",
+    "text": "En BlissMind, nos importa tu experiencia. Si tienes alguna pregunta o necesitas más información sobre nuestros servicios, por favor, completa el siguiente formulario."
+  }
+  

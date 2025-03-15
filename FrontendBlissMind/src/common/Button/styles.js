@@ -16,8 +16,7 @@ export const StyledButton = styled.button`
   box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
 
   &:hover,
-  &:active,
-  &:focus {
+  &:active{
     color: #fff;
     border: 1px solid rgb(255, 130, 92);
     background-color: rgb(255, 130, 92);

@@ -1,16 +1,17 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Rápido, fácil y accesible",
+  "text": "BlissMind está diseñado para brindarte una experiencia fluida, rápida y altamente accesible, ayudándote a mejorar tu bienestar emocional sin complicaciones.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "¿Por qué BlissMind?",
+      "content": "BlissMind ofrece herramientas personalizadas para tu salud mental, basadas en un enfoque integral y accesible.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "¿Por qué es fácil de usar?",
+      "content": "La plataforma está diseñada para ser intuitiva, permitiéndote acceder a recursos de autoayuda, seguimiento emocional y conexión con profesionales.",
       "icon": "notes.svg"
     }
   ]
 }
+
