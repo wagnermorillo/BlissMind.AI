@@ -16,7 +16,11 @@
     }
   
     .burger {
-      display: block;
+      display: block !important;
+    }
+    .menu-items{
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
   

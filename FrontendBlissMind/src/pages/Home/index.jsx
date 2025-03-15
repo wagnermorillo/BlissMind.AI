@@ -11,10 +11,14 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const Footer = lazy(() => import("../../components/Footer"))
+const Header = lazy(() => import("../../components/Header"))
 
 const Home = () => {
 
   return (
+    <>
+    <Header/>
     <Container>
       <ScrollToTop />
       <ContentBlock
@@ -22,7 +26,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="helps.webp"
         id="intro"
       />
       <MiddleBlock
@@ -58,6 +62,8 @@ const Home = () => {
         id="contact"
       />
     </Container>
+    <Footer/>
+    </>
   );
 };
 

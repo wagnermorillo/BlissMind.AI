@@ -97,6 +97,24 @@ const Footer = () => {
                 />
               </LogoContainer>
             </NavLink>
+            <FooterContainer>
+              <SocialLink
+                href="/"
+                src="github.svg"
+              />
+              <SocialLink
+                href="/"
+                src="twitter.svg"
+              />
+              <SocialLink
+                href="/"
+                src="linkedin.svg"
+              />
+              <SocialLink
+                href="/"
+                src="medium.svg"
+              />
+            </FooterContainer>
           </Row>
         </Container>
       </Extra>
