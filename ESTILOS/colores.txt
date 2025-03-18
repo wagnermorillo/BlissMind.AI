@@ -10,7 +10,7 @@ COLORES LIGEROS (DE FONDO):
 #f1f2f3 - LIGERO
 #e0e0e0 - INTERMEDIO
 #bdbdbd - ENFATICO
-
+#e5d4ff - AZUL
 TITULOS:
 font-family: "Motiva Sans Bold";
 COLOR : #2e186a

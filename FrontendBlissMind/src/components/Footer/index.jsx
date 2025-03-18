@@ -90,10 +90,10 @@ const Footer = () => {
             <NavLink>
               <LogoContainer>
                 <SvgIcon
-                  src=""
+                  src="LOGO.webp"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="190px"
+                  height="107px"
                 />
               </LogoContainer>
             </NavLink>
