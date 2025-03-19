@@ -4,6 +4,7 @@ import App from './App'
 import { StrictMode } from 'react'
 import './styles/styles.css'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

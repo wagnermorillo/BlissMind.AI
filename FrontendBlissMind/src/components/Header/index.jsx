@@ -31,9 +31,13 @@ const Header = () => {
       <div className="custom-nav-link-small" onClick={() => scrollTo("product")}>
         <span className="nav-span">Servicios</span>
       </div>
-      <div className="custom-nav-link-small" style={{ width: "180px" }} onClick={() => scrollTo("contact")}>
+      <div className="custom-nav-link-small" style={{ width: "180px" }}>
         <span className="nav-span">
-          <Button>Iniciar Sesión</Button>
+          <Link to="/Login">
+            <Button>
+              Iniciar Sesion
+            </Button>
+          </Link>
         </span>
       </div>
     </div>
