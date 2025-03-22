@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form, Input, Radio, DatePicker, Select, Steps } from "antd";
 import reporte from "../../public/img/svg/helps.webp";
+import invernadero from "../../public/img/invernadero.png"; // Importa la imagen del ícono
 
 const Register = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -91,7 +92,10 @@ const Register = () => {
             <Form.Item
               label="Email"
               name="email"
-              rules={[{ required: true, message: "Por favor ingrese su email" }]}
+              rules={[
+                { required: true, message: "Por favor ingrese su email" },
+                { type: "email", message: "Por favor ingrese un email válido" },
+              ]}
               style={formItemStyle}
             >
               <Input placeholder="Escriba su email" />
@@ -99,15 +103,27 @@ const Register = () => {
             <Form.Item
               label="Contraseña"
               name="password"
-              rules={[{ required: true, message: "Por favor cree una contraseña" }]}
+              rules={[
+                { required: true, message: "Por favor cree una contraseña" },
+                {
+                  pattern: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/,
+                  message: "La contraseña debe contener al menos una mayúscula, una minúscula, un número y 8 caracteres",
+                },
+              ]}
               style={formItemStyle}
             >
               <Input.Password placeholder="Crear contraseña" />
             </Form.Item>
             <Form.Item>
-              <Button type="primary" htmlType="submit" style={buttonStyle}>
-                Continuar
-              </Button>
+              <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <Button type="primary" htmlType="submit" style={{ ...buttonStyle, width: "88%" }}>
+                  Continuar
+                </Button>
+                
+                 <a href="/Home">
+                  <img src={invernadero} alt="Home" style={{ width: "35px", height: "35px" }}/>
+                  </a>
+              </div>
             </Form.Item>
           </Form>
         </div>
