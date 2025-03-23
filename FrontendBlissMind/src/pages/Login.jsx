@@ -1,9 +1,11 @@
 import { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
-import Imageinlog1 from "../../public/img/imghands.jpg";
-import Imageinlog2 from "../../public/img/PC.jpg";
-import imginlog3 from "../../public/img/invernadero.png";
+import { useNavigate, Link } from "react-router-dom";
+import StyledLink from '../common/Link/LinkHome'
+import Imageinlog1 from "/img/imghands.jpg";
+import Imageinlog2 from "/img/PC.jpg";
+import imginlog3 from "/img/invernadero.png";
+import { ArrowLeft } from "react-bootstrap-icons";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Login = () => {

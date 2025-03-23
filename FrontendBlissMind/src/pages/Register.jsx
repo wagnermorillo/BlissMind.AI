@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form, Input, Radio, DatePicker, Select, Steps } from "antd";
-import reporte from "../../public/img/svg/helps.webp";
-import invernadero from "../../public/img/invernadero.png"; // Importa la imagen del ícono
+import { Link } from "react-router-dom";
+import reporte from "/img/svg/helps.webp";
+import invernadero from "/img/invernadero.png"; // Importa la imagen del ícono
 
 const Register = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -253,6 +254,9 @@ const Register = () => {
               Volver atrás
             </Button>
           )}
+          <p style={{ fontSize: "0.85rem" }}>
+            ¿Ya tienes una cuenta? <Link to="/Login" style={{"opacity": 1, color: "rgb(13 110 253)"}}>Inicia sesión</Link>
+          </p>
         </div>
       </div>
     </div>

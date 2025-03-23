@@ -38,7 +38,7 @@
     font-size: 1.2rem;
     color: #18216d;
     transition: color 0.2s ease-in;
-    margin: 0.5rem 2rem;
+    /* margin: 0.5rem 2rem; */
     cursor: pointer;
   }
   
@@ -76,7 +76,7 @@
   }
   .menu-items {
     display: flex;
-    gap: 0.1rem;
+    gap: 2vw;
     align-items: center;
   } 
   

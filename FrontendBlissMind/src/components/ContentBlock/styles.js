@@ -12,6 +12,9 @@ export const ContentSection = styled("section")`
 
 export const Content = styled("p")`
   margin: 1.5rem 0 2rem 0;
+  color: #18216d;
+  font-size: 21px;
+  line-height: 1.41;
 `;
 
 export const StyledRow = styled(Row)`
@@ -45,6 +48,8 @@ export const MinTitle = styled("h6")`
 
 export const MinPara = styled("p")`
   font-size: 13px;
+  color: #18216d;
+  line-height: 1.41;
 `;
 
 export const ButtonWrapper = styled("div")`

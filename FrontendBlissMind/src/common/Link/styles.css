@@ -1,0 +1,12 @@
+.Linked{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: none;
+    padding: 8px 12px;
+    font-size: 1rem;
+}  
+.Linked:hover img, .Linked:hover {
+    opacity: 0.7; /* Cambia este valor para controlar la transparencia */
+    filter: brightness(0.8); /* Opcional, oscurece la imagen */
+ }
