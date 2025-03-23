@@ -53,7 +53,7 @@ const ContentBlock = ({
                       <Button
                         key={index}
                         color={item.color}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => (item.onClick ? item.onClick(): scrollTo("about"))} // cambio para que busque con condicional si el item tiene onClick
                       >
                         {item.title}
                       </Button>

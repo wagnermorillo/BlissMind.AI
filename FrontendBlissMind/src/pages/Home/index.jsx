@@ -14,6 +14,9 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Footer = lazy(() => import("../../components/Footer"))
 const Header = lazy(() => import("../../components/Header"))
 
+const hola = () =>{window.alert("hola")}; // ejemplo de función para el btn blanco
+IntroContent.button[1].onClick = hola; // es un array por ello la posición 1 que es el segundo el blanco
+
 const Home = () => {
 
   return (
