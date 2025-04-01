@@ -1,0 +1,27 @@
+.card-coming{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #D9EAFD; 
+    font-family: 'Motiva Sans Bold', serif !important;
+    height: 100%;
+}
+.card-coming > .ant-card-head{
+    border-bottom: 0;
+    margin: 0;
+    justify-content: flex-end;
+    min-height: 36px;
+    color: #2e186a;
+}
+.card-coming > .ant-card-body{
+    padding: 5px 10px;
+}
+.font-days{
+    font-family: 'Motiva Sans Light', sans-serif !important;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.container-date{
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 8px 3vh;
+}

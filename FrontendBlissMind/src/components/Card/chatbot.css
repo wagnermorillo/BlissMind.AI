@@ -1,0 +1,18 @@
+.card-chatbot{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #e0e0e0; 
+    font-family: 'Motiva Sans Bold', serif !important;
+    height: 100%;
+}
+.card-chatbot > .ant-card-head{
+    background-color: #3c186a;
+    color: white;
+}
+.title-chatbot-body{
+    background: linear-gradient(90deg, #5C7AEA, #344584);
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}

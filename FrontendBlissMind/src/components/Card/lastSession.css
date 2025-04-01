@@ -1,0 +1,39 @@
+.card-last-session{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff; 
+    font-family: 'Motiva Sans Bold', serif !important;
+    height: 100%;
+}
+.card-last-session > .ant-card-head{
+    border-bottom: 0;
+    margin: 0;
+    justify-content: flex-end;
+    min-height: 36px;
+    color: #2e186a;
+}
+.card-last-session > .ant-card-body{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+.vertical-line{
+    width: 2px;
+    align-self: stretch;
+    background-color: #2D4ED8;
+    border-radius: 4px;
+}
+.container-session{
+    flex: 1;
+}
+.font-session{
+    font-family: 'Motiva Sans Light', sans-serif !important;
+    font-size: 12px;
+    line-height: 1.2;
+}
+.button{
+    width: 35%;
+    min-width: 110px;
+    margin: 5px 0 5px;
+}

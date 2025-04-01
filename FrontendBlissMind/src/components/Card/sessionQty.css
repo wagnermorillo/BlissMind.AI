@@ -1,0 +1,13 @@
+.card-session-qty{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #1B2445; 
+    font-family: 'Motiva Sans Bold', serif !important;
+    height: 100%;
+}
+.card-session-qty > .ant-card-head{
+    border-bottom: 0;
+    margin: 0;
+    justify-content: flex-end;
+    min-height: 36px;
+    color: #D9EAFD;
+}

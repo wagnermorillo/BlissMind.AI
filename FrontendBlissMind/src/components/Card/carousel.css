@@ -1,0 +1,26 @@
+.card-carousel{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff; 
+    font-family: 'Motiva Sans Bold', serif !important;
+    height: 100%;
+}
+.card-carousel > .ant-card-head{
+    border-bottom: 0;
+    margin: 0;
+    justify-content: flex-end;
+    min-height: 36px;
+    color: #2e186a;
+}
+.card-carousel > .ant-card-body{
+    padding: 5px 10px;
+}
+.carousel{
+    height: 100%;
+}
+.carousel-item{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
