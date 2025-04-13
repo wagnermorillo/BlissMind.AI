@@ -1,19 +1,26 @@
 import React, { useState } from "react";
-import { Button, Form, Input, Radio, DatePicker, Select, Steps } from "antd";
-import { Link } from "react-router-dom";
-import reporte from "/img/svg/helps.webp";
-import invernadero from "/img/invernadero.png"; // Importa la imagen del ícono
+import { Button, Form, Input, Radio, DatePicker, Steps } from "antd";
+import { useNavigate, Link } from "react-router-dom";
+import reporte from "/img/register.png";
+import invernadero from "/img/invernadero.png";
 
 const Register = () => {
   const [currentStep, setCurrentStep] = useState(0);
-  const [userType, setUserType] = useState("paciente");
+  const [userType, setUserType] = useState(0);
 
   const nextStep = () => setCurrentStep(currentStep + 1);
   const prevStep = () => setCurrentStep(currentStep - 1);
 
+  const navigate = useNavigate();
+
   const handleFinish = (values) => {
     console.log("Datos del formulario:", values);
     alert("Registro completado con éxito");
+    if (userType === "psicologo") {
+      navigate("/Upload");
+    } else {
+      navigate("/Welcomescreen");
+    }
   };
 
   const containerStyle = {
@@ -44,8 +51,8 @@ const Register = () => {
     width: "50%",
     padding: "40px",
     textAlign: "center",
-    height: "500px", // Altura fija
-    overflowY: "auto", // Desplazamiento vertical
+    height: "500px",
+    overflowY: "auto",
   };
 
   const formContentStyle = {
@@ -120,10 +127,9 @@ const Register = () => {
                 <Button type="primary" htmlType="submit" style={{ ...buttonStyle, width: "88%" }}>
                   Continuar
                 </Button>
-                
-                 <a href="/Home">
-                  <img src={invernadero} alt="Home" style={{ width: "35px", height: "35px" }}/>
-                  </a>
+                <a href="/Home">
+                  <img src={invernadero} alt="Home" style={{ width: "35px", height: "35px" }} />
+                </a>
               </div>
             </Form.Item>
           </Form>
@@ -135,13 +141,17 @@ const Register = () => {
       content: (
         <div style={formContentStyle}>
           <h2 style={titleStyle}>Detalles del Usuario</h2>
-          <Form layout="vertical" onFinish={nextStep}>
-            <Form.Item label="Tipo de Usuario" name="userType" style={formItemStyle}>
-              <Radio.Group onChange={(e) => setUserType(e.target.value)} value={userType}>
-                <Radio value="paciente">Paciente</Radio>
-                <Radio value="psicologo">Psicólogo</Radio>
-              </Radio.Group>
-            </Form.Item>
+          <Form layout="vertical" onFinish={handleFinish}>
+          <Form.Item
+           label="Tipo de Usuario"
+            name="userType"
+            rules={[{ required: true, message: "Por favor seleccione un tipo de usuario" }]}
+            style={formItemStyle}>
+            <Radio.Group onChange={(e) => setUserType(e.target.value)} value={userType}>
+            <Radio value="paciente">Paciente</Radio>
+            <Radio value="psicologo">Psicólogo</Radio>
+            </Radio.Group>
+</Form.Item>
             <Form.Item
               label="Número telefónico"
               name="phone"
@@ -171,52 +181,7 @@ const Register = () => {
             </Form.Item>
             <Form.Item>
               <Button type="primary" htmlType="submit" style={buttonStyle}>
-                {userType === "psicologo" ? "Continuar" : "Crear cuenta"}
-              </Button>
-            </Form.Item>
-          </Form>
-        </div>
-      ),
-    },
-    {
-      title: "Registro de psicólogo",
-      content: (
-        <div style={formContentStyle}>
-          <h2 style={titleStyle}>Registro de Psicólogo</h2>
-          <Form layout="vertical" onFinish={handleFinish}>
-            <Form.Item
-              label="Especialidad"
-              name="specialty"
-              rules={[{ required: true, message: "Por favor seleccione su especialidad" }]}
-              style={formItemStyle}
-            >
-              <Select placeholder="Seleccione su especialidad">
-                <Select.Option value="psicologia_clinica">Psicología Clínica</Select.Option>
-                <Select.Option value="psicologia_educativa">Psicología Educativa</Select.Option>
-              </Select>
-            </Form.Item>
-            <Form.Item
-              label="Licencia"
-              name="license"
-              rules={[{ required: true, message: "Por favor ingrese su licencia" }]}
-              style={formItemStyle}
-            >
-              <Input placeholder="Escriba su licencia" />
-            </Form.Item>
-            <Form.Item
-              label="Disponibilidad"
-              name="availability"
-              rules={[{ required: true, message: "Por favor elija su disponibilidad" }]}
-              style={formItemStyle}
-            >
-              <Select placeholder="Elija su disponibilidad">
-                <Select.Option value="tiempo_completo">Tiempo Completo</Select.Option>
-                <Select.Option value="medio_tiempo">Medio Tiempo</Select.Option>
-              </Select>
-            </Form.Item>
-            <Form.Item>
-              <Button type="primary" htmlType="submit" style={buttonStyle}>
-                Completar registro
+                Crear cuenta
               </Button>
             </Form.Item>
           </Form>
@@ -233,33 +198,26 @@ const Register = () => {
         </div>
         <div style={formContainerStyle}>
           <Steps current={currentStep} style={{ marginBottom: "24px" }}>
-            {steps
-              .filter((step, index) => index < 2 || userType === "psicologo") // Oculta el tercer paso si no es psicólogo
-              .map((step, index) => (
-                <Steps.Step key={index} title={step.title} />
-              ))}
+            {steps.map((step, index) => (
+              <Steps.Step key={index} title={step.title} />
+            ))}
           </Steps>
-          <div>
-            {steps
-              .filter((step, index) => index === currentStep) // Filtra el paso actual
-              .map((step, index) => (
-                <div key={index}>{step.content}</div>
-              ))}
-          </div>
+          <div>{steps[currentStep]?.content}</div>
           {currentStep > 0 && (
-            <Button
-              style={{ marginTop: "24px" }}
-              onClick={prevStep}
-            >
+            <Button style={{ marginTop: "24px" }} onClick={prevStep}>
               Volver atrás
             </Button>
           )}
           <p style={{ fontSize: "0.85rem" }}>
-            ¿Ya tienes una cuenta? <Link to="/Login" style={{"opacity": 1, color: "rgb(13 110 253)"}}>Inicia sesión</Link>
+            ¿Ya tienes una cuenta?{" "}
+            <Link to="/Login" style={{ opacity: 1, color: "rgb(13 110 253)" }}>
+              Inicia sesión
+            </Link>
           </p>
         </div>
       </div>
     </div>
   );
 };
+
 export default Register;

@@ -1,0 +1,39 @@
+/* Upload.css */
+.custom-steps .ant-steps-item-container {
+    border: 1px solid #2e186a;
+    border-radius: 16px;
+    padding: 4px 16px;
+    background: transparent;
+    margin-right: 8px;
+  }
+  
+  .custom-steps .ant-steps-item-active .ant-steps-item-container,
+  .custom-steps .ant-steps-item-finish .ant-steps-item-container {
+    border-color: #2e186a;
+  }
+  
+  .availability-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .availability-option {
+    flex: 1;
+    padding: 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  
+  .availability-option.selected {
+    border-color: #2e186a;
+    background-color: #f5f1ff;
+    color: #2e186a;
+    font-weight: 500;
+  }
+  
