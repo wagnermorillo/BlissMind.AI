@@ -1,14 +1,17 @@
 .sider-size{
     min-height: 100vh;
 }
+
 .color{
     background-color: #e6e9ed;
 }
+
 .title{
     margin: 2vh 0 5vh !important;
     font-weight: 700 !important;
     color: #2e186a !important;
 }
+
 .custom-header{
     justify-content: center;
     flex-direction: column;
@@ -21,11 +24,13 @@
     top: 0;
     z-index: 1;
 }
+
 .container-flex{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 .container-flex > div{
     flex: 1;
     background-color: #f1f2f3;
@@ -33,6 +38,7 @@
     border-radius: 14px;
     margin-right: 5px;
 }
+
 .fixed-sider{
     overflow: auto;
     height: 100vh;
@@ -47,13 +53,16 @@
 h1, h2,h3, h4, h5, h6, li span{
     font-family: 'Motiva Sans Bold', serif !important;
 }
+
 span{
     font-family: 'Motiva Sans Light', sans-serif !important;
 }
+
 li span{
     font-weight: 500;
     color: #2e186a !important;
 }
+
 span.ant-dropdown-menu-title-content{
     color: black !important;
     font-family: 'Motiva Sans Light', sans-serif !important;;

@@ -1,5 +1,6 @@
 import {lazy, React, Suspense} from "react";
 import { Routes, Route} from "react-router-dom";
+import DashboardPatient from "../pages/dashboard/DashboardPatient.jsx";
 const Login = lazy(() => import("../pages/Login.jsx"));
 const Register = lazy(() => import("../pages/Register.jsx"));
 const Welcomescreen = lazy(() => import("../components/Questions/Welcomescreen.jsx"));
@@ -9,7 +10,7 @@ const Upload = lazy(() => import( "../components/Questions/Upload.jsx"));
 const Home = lazy(() => import("../pages/Home"));
 const LoadingScreen = lazy(() => import("../components/Loading/loading.jsx"));
 const DashBoard = lazy(() => import("../pages/dashboard/dashboard.jsx"));
-
+const ChatAi = lazy(() => import("../pages/chat-ai/ChatAi.jsx"));
 
 function AppRouter() {
   return (
@@ -20,10 +21,12 @@ function AppRouter() {
           <Route path="/Login" element={<Login />}/>
           <Route path="/Register" element={<Register />}/>
           <Route path="/Dashboard" element={<DashBoard />}/>
+          <Route path="/dashboard-patient" element={<DashboardPatient />}/>
           <Route path="/Welcomescreen" element={<Welcomescreen />}/>
           <Route path="/Questionnaire" element={<Questionnaire />}/>
           <Route path="/Welcpsyco" element={<Welcpsyco />}/>
           <Route path="/Upload" element={<Upload />}/>
+          <Route path="/chat-ai" element={<ChatAi />} />
         </Routes>
         </Suspense>
   );
