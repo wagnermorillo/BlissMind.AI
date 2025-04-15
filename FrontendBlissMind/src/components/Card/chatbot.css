@@ -1,11 +1,15 @@
 .card-chatbot{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: #e0e0e0; 
     font-family: 'Motiva Sans Bold', serif !important;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e0e0e0;
 }
+
 .card-chatbot > .ant-card-head{
-    background-color: #3c186a;
+    background-color: #19186a;
     color: white;
 }
 .title-chatbot-body{

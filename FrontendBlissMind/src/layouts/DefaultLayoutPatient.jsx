@@ -171,6 +171,7 @@ const DefaultLayoutPatient = ({ children }) => {
           style={{
             textAlign: collapsed ? "center" : "left",
             padding: collapsed ? "20px 0px" : "16px",
+            borderRight: "1px solid #f0f0f0"
           }}
         >
           <h1
@@ -231,10 +232,11 @@ const DefaultLayoutPatient = ({ children }) => {
         <Content
           style={{
             marginTop: 38,
-            padding: 24,
+            padding: "24px 0px 8px",
             height: "calc(100vh - 64px)",
             overflowY: "auto",
             background: colorBgContainer,
+            borderRadius: 0
           }}
         >
           {children}
