@@ -1,16 +1,21 @@
 import { lazy, React, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import ProtectedRouter from './ProtectedRouter.jsx'
+import ProtectedRouter from "./ProtectedRouter.jsx";
 const Login = lazy(() => import("../pages/Login.jsx"));
 const Register = lazy(() => import("../pages/Register.jsx"));
-const Welcomescreen = lazy(() => import("../components/Questions/Welcomescreen.jsx"));
+const Welcomescreen = lazy(() =>
+  import("../components/Questions/Welcomescreen.jsx")
+);
 const Welcpsyco = lazy(() => import("../components/Questions/Welcpsyco.jsx"));
-const Questionnaire = lazy(() => import("../components/Questions/Questionnaire.jsx"));
+const Questionnaire = lazy(() =>
+  import("../components/Questions/Questionnaire.jsx")
+);
 const Upload = lazy(() => import("../components/Questions/Upload.jsx"));
 const Home = lazy(() => import("../pages/Home"));
 const LoadingScreen = lazy(() => import("../components/Loading/loading.jsx"));
 const DashBoard = lazy(() => import("../pages/dashboard/dashboard.jsx"));
-
+const ChatAi = lazy(() => import("../pages/chat-ai/ChatAi.jsx"));
+const DashboardPatient = lazy(() => import("../pages/dashboard/DashboardPatient.jsx"));
 
 function AppRouter() {
   return (
@@ -27,6 +32,8 @@ function AppRouter() {
         <Route path="/Questionnaire" element={<Questionnaire />} />
         <Route path="/Welcpsyco" element={<Welcpsyco />} />
         <Route path="/Upload" element={<Upload />} />
+        <Route path="/dashboard-patient" element={<DashboardPatient />} />
+        <Route path="/chat-ai" element={<ChatAi />} />
       </Routes>
     </Suspense>
   );
