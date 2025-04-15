@@ -1,8 +1,6 @@
 import React, { lazy } from "react";
-import { Flex, Layout, Menu, Row, Col, Typography } from "antd";
+import { Row, Col } from "antd";
 import DefaultLayoutPatient from "../../layouts/DefaultLayoutPatient";
-const { Header, Content, Sider } = Layout;
-const { Title } = Typography;
 import { UserOutlined } from "@ant-design/icons";
 import "./styles.css";
 

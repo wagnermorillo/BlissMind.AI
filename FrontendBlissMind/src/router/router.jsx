@@ -16,6 +16,9 @@ const LoadingScreen = lazy(() => import("../components/Loading/loading.jsx"));
 const DashBoard = lazy(() => import("../pages/dashboard/dashboard.jsx"));
 const ChatAi = lazy(() => import("../pages/chat-ai/ChatAi.jsx"));
 const DashboardPatient = lazy(() => import("../pages/dashboard/DashboardPatient.jsx"));
+const Support = lazy(() => import("../pages/resources-support/Support.jsx"));
+const SupportCategoryPage = lazy(() => import("../pages/resources-support/SupportCategoryPage.jsx"));
+const SearchSupportResults = lazy(() => import("../pages/resources-support/SearchSupportResults.jsx"));
 
 function AppRouter() {
   return (
@@ -34,6 +37,9 @@ function AppRouter() {
         <Route path="/Upload" element={<Upload />} />
         <Route path="/dashboard-patient" element={<DashboardPatient />} />
         <Route path="/chat-ai" element={<ChatAi />} />
+        <Route path="/support" element={<Support/>} />
+        <Route path="/support/:category" element={<SupportCategoryPage />} />
+        <Route path="/support/results" element={<SearchSupportResults />} />
       </Routes>
     </Suspense>
   );

@@ -76,7 +76,7 @@ const items = [
         key: "8",
         label: "Soporte / Help",
         icon: <QuestionCircleOutlined />,
-        path: "/Soporte",
+        path: "/support",
       },
     ],
   },
