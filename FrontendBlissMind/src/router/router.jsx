@@ -19,6 +19,7 @@ const DashboardPatient = lazy(() => import("../pages/dashboard/DashboardPatient.
 const Support = lazy(() => import("../pages/resources-support/Support.jsx"));
 const SupportCategoryPage = lazy(() => import("../pages/resources-support/SupportCategoryPage.jsx"));
 const SearchSupportResults = lazy(() => import("../pages/resources-support/SearchSupportResults.jsx"));
+const NotFoundPage = lazy(() => import("../pages/not-found/NotFoundPage.jsx"));
 
 function AppRouter() {
   return (
@@ -40,6 +41,8 @@ function AppRouter() {
         <Route path="/support" element={<Support/>} />
         <Route path="/support/:category" element={<SupportCategoryPage />} />
         <Route path="/support/results" element={<SearchSupportResults />} />
+        
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Suspense>
   );
