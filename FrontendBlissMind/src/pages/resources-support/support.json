@@ -1,0 +1,168 @@
+{
+    "account": {
+        "label": "Cuenta",
+        "faqs": [
+            {
+                "question": "¿Cómo crear una cuenta?",
+                "answer": "Para crear una cuenta en nuestra plataforma, haz clic en el botón 'Registrarse' ubicado en la esquina superior derecha de la página principal. Completa el formulario con tus datos personales (nombre, correo electrónico y contraseña). Después, recibirás un correo de verificación que deberás confirmar para activar tu cuenta. Una vez verificada, podrás completar tu perfil con información adicional como tu historial médico básico y preferencias de terapia para ayudarnos a encontrar el profesional adecuado para ti."
+            },
+            {
+                "question": "¿Olvidé mi contraseña?",
+                "answer": "Si has olvidado tu contraseña, ve a la página de inicio de sesión y haz clic en el enlace 'Olvidé mi contraseña'. Se te pedirá que ingreses el correo electrónico asociado a tu cuenta. Te enviaremos un enlace seguro para restablecer tu contraseña que será válido durante 24 horas. Por motivos de seguridad, este enlace solo puede utilizarse una vez. Si no recibes el correo en unos minutos, revisa tu carpeta de spam o ponte en contacto con nuestro servicio de soporte."
+            },
+            {
+                "question": "¿Cómo actualizar mi información personal?",
+                "answer": "Puedes actualizar tu información personal en cualquier momento accediendo a tu cuenta y navegando a la sección 'Mi Perfil'. Aquí podrás modificar datos como tu nombre, teléfono, dirección, foto de perfil y preferencias de comunicación. Para cambios en datos sensibles como tu correo electrónico principal o información fiscal, necesitarás confirmar tu identidad mediante un código de verificación que te enviaremos. Recuerda mantener actualizada tu información de contacto para no perder notificaciones importantes sobre tus citas."
+            },
+            {
+                "question": "¿Cómo gestionar mis métodos de pago?",
+                "answer": "Para gestionar tus métodos de pago, inicia sesión y dirígete a 'Configuración' > 'Métodos de Pago'. Desde allí podrás agregar nuevas tarjetas de crédito/débito, vincular cuentas de PayPal o eliminar métodos de pago existentes. También puedes establecer un método de pago predeterminado para tus sesiones recurrentes. Todos tus datos de pago están protegidos mediante encriptación de nivel bancario y no almacenamos información completa de tus tarjetas en nuestros servidores. Si tienes dudas sobre un cargo, también puedes acceder al historial de facturación desde esta sección."
+            },
+            {
+                "question": "¿Puedo tener diferentes tipos de cuenta (paciente y profesional)?",
+                "answer": "No es posible mantener una cuenta dual en nuestra plataforma. Si eres un profesional de la psicología que también desea recibir terapia, deberás crear dos cuentas separadas con diferentes direcciones de correo electrónico. Esto garantiza la confidencialidad y evita conflictos de interés en nuestro sistema. Sin embargo, ofrecemos un proceso de verificación simplificado para profesionales que ya tienen una cuenta como pacientes. Contacta a nuestro equipo de soporte para recibir asistencia en este proceso."
+            },
+            {
+                "question": "¿Cómo eliminar mi cuenta?",
+                "answer": "Si deseas eliminar tu cuenta, ve a 'Configuración' > 'Privacidad' > 'Eliminar cuenta'. Antes de proceder, te recomendamos descargar tu historial de sesiones y facturas mediante la opción 'Exportar mis datos'. Una vez que solicites la eliminación, tendrás un período de gracia de 30 días durante el cual podrás reactivar tu cuenta iniciando sesión nuevamente. Pasado este período, todos tus datos personales serán eliminados permanentemente de nuestros servidores, aunque algunos registros anónimos podrían conservarse por requisitos legales según lo establecido en nuestra política de privacidad."
+            },
+            {
+                "question": "¿Cómo configurar mis notificaciones?",
+                "answer": "Para personalizar tus notificaciones, accede a 'Configuración' > 'Notificaciones'. Desde allí podrás activar o desactivar diferentes tipos de alertas como recordatorios de citas, mensajes de terapeutas, cambios en tu cuenta o promociones. Puedes elegir recibirlas por correo electrónico, SMS o notificaciones push si utilizas nuestra aplicación móvil. Te recomendamos mantener activas al menos las notificaciones relacionadas con tus citas para evitar confusiones o sesiones perdidas. También puedes establecer con cuánta anticipación deseas recibir los recordatorios de tus próximas sesiones."
+            }
+        ]
+    },
+    "billing": {
+        "label": "Facturación",
+        "faqs": [
+            {
+                "question": "¿Cómo actualizar mi método de pago?",
+                "answer": "Para actualizar tu método de pago, inicia sesión en tu cuenta y dirígete a 'Configuración'. Luego selecciona 'Método de pago' en el menú lateral. Aquí podrás agregar una nueva tarjeta de crédito/débito, eliminar métodos existentes o establecer uno como predeterminado. Los cambios se aplicarán inmediatamente y utilizaremos tu nuevo método de pago para futuras transacciones. También puedes configurar opciones como el pago automático para tus sesiones recurrentes. Todos tus datos financieros están protegidos mediante encriptación de nivel bancario."
+            },
+            {
+                "question": "¿Cómo revisar mis facturas?",
+                "answer": "Para revisar tus facturas, accede a la sección 'Facturación' desde el menú principal de tu cuenta. Allí encontrarás un historial completo de todas tus transacciones, incluyendo pagos realizados, reembolsos y facturas pendientes. Puedes filtrar por fecha, profesional o estado del pago. Al hacer clic en cualquier factura, podrás ver los detalles completos, descargarla en formato PDF o solicitar su envío por correo electrónico. Guardamos tu historial de facturación durante 5 años, conforme a las regulaciones fiscales."
+            },
+            {
+                "question": "¿Cómo funcionan los planes de suscripción?",
+                "answer": "Nuestros planes de suscripción están diseñados para pacientes que realizan terapia regular. Al suscribirte a un plan mensual, obtienes un número determinado de sesiones a un precio preferencial (ahorras entre un 15-25% comparado con sesiones individuales). Los planes varían desde paquetes básicos (2 sesiones/mes) hasta intensivos (8 sesiones/mes). Tu suscripción se renueva automáticamente cada mes, pero puedes cancelarla en cualquier momento desde la sección 'Mis Suscripciones'. Las sesiones no utilizadas se acumulan por un máximo de 3 meses, después de los cuales expiran. Si necesitas más sesiones de las incluidas en tu plan, siempre puedes programar sesiones adicionales a la tarifa estándar."
+            },
+            {
+                "question": "¿Qué pasa si cancelo una cita? ¿Se me reembolsa?",
+                "answer": "Nuestra política de cancelación establece que si cancelas una cita con al menos 24 horas de anticipación, recibirás un reembolso completo o, en caso de planes de suscripción, no se contabilizará como sesión utilizada. Para cancelaciones con menos de 24 horas de anticipación, generalmente se aplica un cargo del 50% del valor de la sesión, aunque esto puede variar según la política individual de cada profesional (visible en su perfil). En casos de emergencias médicas documentadas, podemos hacer excepciones a esta política. Las cancelaciones por parte del profesional siempre resultan en un reembolso completo o en la reprogramación sin costo adicional, según prefieras."
+            },
+            {
+                "question": "¿Puedo solicitar factura para deducción de impuestos o seguro médico?",
+                "answer": "Sí, todas las sesiones realizadas a través de nuestra plataforma generan automáticamente facturas que cumplen con los requisitos fiscales necesarios para deducción de impuestos y reembolso de seguros médicos en la mayoría de los países. Para configurar tus datos fiscales (como NIF/CIF, razón social o dirección fiscal), ve a 'Mi Perfil' > 'Información Fiscal'. Puedes solicitar facturas personalizadas con información adicional contactando a nuestro departamento de facturación. Importante: no podemos garantizar que tu seguro médico cubra las sesiones, te recomendamos verificar directamente con tu aseguradora antes de iniciar el tratamiento."
+            },
+            {
+                "question": "¿Qué formas de pago aceptan?",
+                "answer": "Actualmente aceptamos múltiples formas de pago para brindarte mayor flexibilidad: tarjetas de crédito/débito (Visa, MasterCard, American Express), PayPal, transferencia bancaria (para paquetes de sesiones o suscripciones), Apple Pay y Google Pay (en nuestras aplicaciones móviles). También ofrecemos la opción de pago fraccionado para paquetes de terapia intensiva (más de 10 sesiones) mediante acuerdos con financieras asociadas. Las transacciones se procesan en tiempo real, excepto las transferencias bancarias que pueden demorar hasta 48 horas en verificarse. Todas las transacciones están protegidas con sistemas de seguridad avanzados y cifrado SSL."
+            },
+            {
+                "question": "¿Ofrecen planes con descuento para estudiantes o personas con recursos limitados?",
+                "answer": "Sí, contamos con un programa de asistencia financiera para personas con recursos limitados, estudiantes, desempleados y otros grupos específicos. Para solicitar acceso a este programa, debes completar un formulario en la sección 'Asistencia Financiera' y proporcionar documentación que acredite tu situación (carnet de estudiante, certificado de desempleo, etc.). Una vez aprobada tu solicitud, podrás acceder a tarifas reducidas (entre un 20-50% de descuento) o a profesionales que ofrecen un número limitado de plazas solidarias. Este programa está sujeto a disponibilidad y se revisa periódicamente. También ofrecemos opciones de terapia grupal a precios más accesibles."
+            }
+        ]
+    },
+    "technical-support": {
+        "label": "Soporte Técnico",
+        "faqs": [
+            {
+                "question": "¿Cómo solucionar un error en la aplicación?",
+                "answer": "Si experimentas algún error en la aplicación, primero intenta cerrarla completamente y reiniciarla. Si el problema persiste, te recomendamos verificar tu conexión a internet y actualizar la aplicación a la última versión disponible. Para errores específicos, como problemas de conexión durante las videollamadas, prueba a desactivar temporalmente cualquier VPN o firewall que puedas tener activo. También puedes borrar la caché de la aplicación desde la configuración de tu dispositivo. Si ninguna de estas soluciones funciona, por favor contacta con nuestro equipo de soporte técnico a través del chat en vivo o enviando un correo a soporte@plataforma.com, incluyendo capturas de pantalla del error y el modelo de tu dispositivo para que podamos ayudarte más eficientemente."
+            },
+            {
+                "question": "¿Dónde encuentro las actualizaciones?",
+                "answer": "Las actualizaciones de nuestra plataforma se publican regularmente en la sección 'Novedades' dentro de la aplicación, accesible desde el menú principal. Para dispositivos móviles, las actualizaciones se gestionan automáticamente a través de la App Store (iOS) o Google Play Store (Android). En nuestra versión web, las mejoras se implementan automáticamente sin necesidad de acción por tu parte. Recomendamos mantener activadas las notificaciones de la aplicación para recibir alertas sobre nuevas funcionalidades, mejoras de seguridad o cambios importantes. También publicamos notas detalladas sobre cada actualización en nuestro blog, donde puedes conocer las nuevas características y reportar cualquier problema relacionado con la actualización."
+            },
+            {
+                "question": "¿Cuáles son los requisitos técnicos para las videoconsultas?",
+                "answer": "Para garantizar una experiencia óptima durante tus videoconsultas, necesitarás: una conexión a internet estable (mínimo 2 Mbps de subida y bajada, recomendado 5+ Mbps), cámara web y micrófono funcionando correctamente, y un navegador actualizado (recomendamos Chrome, Firefox o Safari en sus versiones más recientes). En dispositivos móviles, asegúrate de tener suficiente batería o mantenerlo conectado durante la sesión. Si usas auriculares, mejorará la calidad del audio y la privacidad de la conversación. Antes de cada sesión, nuestra plataforma realiza automáticamente una prueba de conectividad y te permite verificar el funcionamiento de tu cámara y micrófono. Si tienes dudas sobre la compatibilidad de tu equipo, puedes realizar una prueba en cualquier momento desde la sección 'Configuración' > 'Prueba técnica'."
+            },
+            {
+                "question": "¿Qué hago si se interrumpe mi sesión por problemas técnicos?",
+                "answer": "Si tu sesión se interrumpe por problemas técnicos, no te preocupes. Primero, intenta reconectarte inmediatamente haciendo clic en el enlace original de la sesión. Si el problema persiste, comunícate con tu terapeuta a través del chat interno de la plataforma para coordinar la reconexión. En caso de que los problemas sean persistentes, nuestra política establece que las sesiones interrumpidas por más de 10 minutos debido a fallas técnicas de nuestra plataforma serán reprogramadas sin costo adicional o reembolsadas proporcionalmente al tiempo perdido, según prefieras. Para evitar interrupciones, recomendamos usar una conexión por cable en lugar de WiFi cuando sea posible y cerrar aplicaciones que consuman ancho de banda como servicios de streaming o descargas durante la sesión."
+            },
+            {
+                "question": "¿Cómo acceder a la plataforma desde diferentes dispositivos?",
+                "answer": "Nuestra plataforma está diseñada para ser completamente multiplataforma. Puedes acceder a tu cuenta desde cualquier dispositivo usando el mismo nombre de usuario y contraseña, ya sea a través de nuestra aplicación móvil (disponible para iOS y Android) o mediante cualquier navegador web en ordenadores de escritorio o portátiles. Tu información, historial de sesiones y mensajes se sincronizarán automáticamente entre todos tus dispositivos. Para mayor seguridad, recibirás una notificación cada vez que inicies sesión desde un nuevo dispositivo o ubicación. Si planeas utilizar un dispositivo público, te recomendamos usar el modo de navegación privada y cerrar sesión al terminar. Recuerda que para videoconsultas, los dispositivos con pantallas más grandes suelen ofrecer una mejor experiencia."
+            }
+        ]
+    },
+    "payments": {
+        "label": "Pagos",
+        "faqs": [
+            {
+                "question": "¿Cómo agregar una tarjeta de crédito?",
+                "answer": "Para agregar una tarjeta de crédito o débito a tu cuenta, inicia sesión y navega hasta la sección 'Mi Cuenta' > 'Métodos de pago'. Haz clic en el botón 'Añadir nueva tarjeta' y completa el formulario con los datos requeridos: número de tarjeta, fecha de vencimiento, código de seguridad (CVV) y nombre del titular. También puedes escanear tu tarjeta usando la cámara de tu dispositivo móvil para una entrada más rápida. Puedes agregar múltiples tarjetas y designar una como predeterminada para tus pagos automáticos. Toda la información se transmite mediante conexión segura (SSL) y cumplimos con los estándares PCI-DSS para el almacenamiento de datos financieros. No guardamos el código CVV después de la verificación inicial por razones de seguridad."
+            },
+            {
+                "question": "¿Cómo cancelar una suscripción?",
+                "answer": "Para cancelar una suscripción activa, accede a tu cuenta y dirígete a la sección 'Suscripciones'. Allí verás todas tus suscripciones activas. Selecciona la que deseas cancelar y haz clic en el botón 'Cancelar suscripción'. Se te pedirá que confirmes la cancelación y, opcionalmente, que indiques el motivo (esta información nos ayuda a mejorar nuestros servicios). Las suscripciones canceladas permanecerán activas hasta el final del período facturado, por lo que podrás seguir disfrutando de los beneficios hasta entonces. No se realizarán más cobros automáticos después de la cancelación. Si cambias de opinión, puedes reactivar tu suscripción en cualquier momento antes de que finalice el período actual. Ten en cuenta que algunas promociones especiales podrían no estar disponibles al reactivar una suscripción cancelada."
+            },
+            {
+                "question": "¿Qué opciones de pago ofrecen además de tarjetas de crédito?",
+                "answer": "Además de tarjetas de crédito y débito, ofrecemos múltiples alternativas de pago para adaptarnos a tus preferencias: PayPal, transferencia bancaria (para pagos superiores a cierto monto), Apple Pay y Google Pay (disponibles en nuestras aplicaciones móviles), y en algunos países, pagos en efectivo a través de servicios como Efecty o PagoFácil. Para profesionales de la salud que facturan a través de seguros médicos, tenemos integración directa con las principales aseguradoras. También ofrecemos la posibilidad de pagar con tarjetas de beneficios o vales de salud corporativos. Si necesitas una opción de pago específica que no encuentras en nuestra plataforma, contacta con nuestro equipo de atención al cliente para explorar soluciones personalizadas."
+            },
+            {
+                "question": "¿Cómo funcionan los reembolsos?",
+                "answer": "Nuestra política de reembolsos está diseñada para ser justa tanto para pacientes como para profesionales. Si necesitas solicitar un reembolso, puedes hacerlo desde la sección 'Historial de pagos' seleccionando la transacción correspondiente y haciendo clic en 'Solicitar reembolso'. Los reembolsos se procesan según estas condiciones: para sesiones canceladas con más de 24 horas de antelación, recibirás un reembolso del 100%; para cancelaciones con menos de 24 horas, generalmente aplica nuestra política estándar (50% de reembolso), aunque esto puede variar según el profesional. Si la sesión no se realizó por causas atribuibles al terapeuta o a problemas técnicos de nuestra plataforma, se reembolsará el 100%. Los reembolsos se procesan usando el mismo método de pago original y pueden tardar entre 3-10 días hábiles en reflejarse, dependiendo de tu entidad bancaria."
+            },
+            {
+                "question": "¿Cómo puedo obtener una factura con datos fiscales específicos?",
+                "answer": "Para obtener facturas personalizadas con tus datos fiscales específicos, necesitas configurar esta información en tu perfil. Ve a 'Mi Cuenta' > 'Información Fiscal' y completa los campos requeridos como nombre fiscal o razón social, número de identificación fiscal (NIF/CIF/RUC/RFC según tu país), dirección fiscal completa y, en caso necesario, régimen fiscal aplicable. Una vez configurada esta información, todas las facturas futuras se generarán automáticamente con estos datos. Para facturas ya emitidas, puedes solicitar una rectificación desde la sección 'Historial de Facturas' seleccionando el documento y haciendo clic en 'Solicitar modificación'. Las facturas están disponibles en formato PDF y pueden ser descargadas o enviadas por correo electrónico. Cumplimos con la normativa fiscal de cada país donde operamos, incluyendo requisitos específicos de facturación electrónica."
+            }
+        ]
+    },
+    "appointments": {
+        "label": "Citas",
+        "faqs": [
+            {
+                "question": "¿Cómo agendar una cita con un psicólogo?",
+                "answer": "Para agendar una cita con un psicólogo, primero explora los perfiles disponibles utilizando nuestros filtros de especialidad, enfoque terapéutico, precio o disponibilidad horaria. Una vez que encuentres al profesional adecuado, dirígete a su perfil completo y haz clic en el botón 'Agendar cita'. Se abrirá un calendario que muestra la disponibilidad del profesional en tiempo real. Selecciona la fecha y hora que mejor se adapte a tu agenda y elige el tipo de sesión (videollamada, llamada telefónica o presencial, si está disponible). Completa el breve formulario indicando el motivo general de la consulta, lo que ayudará al profesional a prepararse para la sesión. Finalmente, procede al pago para confirmar la reserva. Recibirás inmediatamente una confirmación por correo electrónico y recordatorios automáticos 24 horas y 1 hora antes de la cita."
+            },
+            {
+                "question": "¿Qué pasa si no puedo asistir a mi cita?",
+                "answer": "Si no puedes asistir a una cita programada, tienes varias opciones. Lo ideal es reprogramarla o cancelarla con al menos 24 horas de antelación, lo que puedes hacer directamente desde tu panel de usuario en la sección 'Mis Citas'. Para reprogramaciones, verás la disponibilidad actualizada del profesional y podrás seleccionar un nuevo horario conveniente. Las cancelaciones con más de 24 horas de anticipación generalmente reciben un reembolso completo o, en caso de planes de suscripción, la sesión no se contabiliza como utilizada. Para cancelaciones con menos tiempo, se aplica nuestra política estándar, que puede incluir un cargo parcial dependiendo del profesional. En casos excepcionales como emergencias médicas documentadas, puedes contactar con nuestro servicio de atención al cliente para solicitar una excepción a estas políticas. Recuerda que faltar a una cita sin aviso previo (no-show) habitualmente resulta en el cobro completo de la sesión."
+            },
+            {
+                "question": "¿Cómo funcionan las sesiones de seguimiento?",
+                "answer": "Las sesiones de seguimiento son fundamentales para el proceso terapéutico. Después de tu primera consulta, tu psicólogo probablemente recomendará una frecuencia para las sesiones (semanal, quincenal o mensual) según tus necesidades específicas. Puedes programar sesiones recurrentes automáticamente seleccionando la opción 'Programar serie de citas' al agendar. Esto te permite reservar el mismo horario durante varias semanas, asegurando continuidad en tu tratamiento. Nuestro sistema te enviará recordatorios antes de cada sesión y te notificará con anticipación cuando estés llegando a la última cita programada de la serie, para que consideres extenderla. Los pacientes con planes de suscripción tienen prioridad para mantener sus horarios habituales. Si necesitas hacer un cambio en tu patrón de sesiones de seguimiento, puedes comunicarlo directamente a tu terapeuta durante la consulta o a través del chat interno de la plataforma."
+            },
+            {
+                "question": "¿Cómo prepararme para mi primera videoconsulta?",
+                "answer": "Para aprovechar al máximo tu primera videoconsulta, te recomendamos seguir estos pasos: 1) Encuentra un espacio privado y tranquilo donde puedas hablar con libertad, sin interrupciones ni ruidos de fondo. 2) Verifica tu conexión a internet y prueba tu cámara y micrófono con antelación (puedes usar nuestra herramienta de prueba técnica en la sección 'Configuración'). 3) Conéctate 5-10 minutos antes de la hora programada para resolver cualquier problema técnico. 4) Ten a mano papel y lápiz para tomar notas importantes. 5) Reflexiona previamente sobre lo que quieres conseguir con la terapia y prepara algunas notas sobre tu situación o preocupaciones principales para compartir con el profesional. 6) Recuerda que la primera sesión suele ser principalmente informativa y de evaluación, donde el psicólogo recopilará datos sobre tu historia y necesidades. 7) Asegúrate de que tu dispositivo esté completamente cargado o conectado a la corriente durante la sesión."
+            },
+            {
+                "question": "¿Puedo cambiar de psicólogo si no me siento cómodo?",
+                "answer": "Absolutamente. La conexión terapéutica es fundamental para el éxito del tratamiento, y entendemos que no siempre el primer profesional es el adecuado para ti. Si después de una o varias sesiones sientes que no hay buena compatibilidad con tu psicólogo actual, puedes cambiar a otro profesional en cualquier momento. Simplemente navega por nuestro directorio y agenda una cita con un nuevo terapeuta. No es necesario dar explicaciones al profesional anterior, aunque puedes hacerlo si te sientes cómodo. Si estás en un plan de suscripción, tus sesiones restantes se pueden utilizar con cualquier profesional de nuestra plataforma. Si necesitas orientación para encontrar un psicólogo más adecuado a tus necesidades específicas, nuestro equipo de atención al cliente puede ofrecerte recomendaciones personalizadas basadas en tu perfil y experiencia previa. Tu bienestar es nuestra prioridad y queremos asegurarnos de que encuentres el apoyo que necesitas."
+            }
+        ]
+    },
+    "privacy": {
+        "label": "Privacidad",
+        "faqs": [
+            {
+                "question": "¿Cómo se protege mi información personal?",
+                "answer": "Protegemos tu información personal mediante un sistema integral de seguridad digital. Todos tus datos se transmiten utilizando cifrado SSL/TLS de 256 bits y se almacenan en servidores seguros con encriptación de extremo a extremo, cumpliendo con los estándares más exigentes de la industria (HIPAA, GDPR y otras normativas internacionales de privacidad sanitaria). El acceso a la información está estrictamente controlado mediante sistemas de autenticación de múltiples factores y solo el personal autorizado puede acceder a datos limitados cuando es absolutamente necesario para el soporte técnico. Las notas clínicas de tus sesiones son confidenciales y solo tu terapeuta puede acceder a ellas. Realizamos auditorías de seguridad periódicas y mantenemos nuestros sistemas actualizados contra las últimas vulnerabilidades. Nunca compartimos, vendemos o cedemos tu información personal a terceros sin tu consentimiento explícito, excepto cuando es legalmente requerido."
+            },
+            {
+                "question": "¿Puedo eliminar mi cuenta y mis datos?",
+                "answer": "Sí, respetamos plenamente tu derecho a la privacidad y control de tus datos personales. Puedes solicitar la eliminación completa de tu cuenta y datos asociados en cualquier momento desde la sección 'Privacidad' en la configuración de tu cuenta. Al solicitar la eliminación, tendrás dos opciones: eliminación estándar (se realiza en un plazo de 30 días, durante los cuales puedes revertir la decisión) o eliminación inmediata. Una vez completado el proceso, eliminaremos permanentemente todos tus datos personales, historial de conversaciones, información de pago y otros contenidos asociados a tu cuenta. De acuerdo con ciertas regulaciones, algunos datos mínimos pueden mantenerse por períodos específicos para cumplir con obligaciones legales (como registros de facturación), pero estarán desvinculados de tu identidad. Si necesitas una certificación de eliminación de datos para fines legales, puedes solicitarla a nuestro Delegado de Protección de Datos."
+            },
+            {
+                "question": "¿Quién puede ver mis conversaciones con el psicólogo?",
+                "answer": "La confidencialidad es un pilar fundamental de nuestra plataforma. Tus conversaciones con el psicólogo son estrictamente privadas y solo pueden ser vistas por ti y tu terapeuta. Ni siquiera nuestros administradores o personal técnico tienen acceso regular al contenido de tus sesiones o mensajes intercambiados. Las videollamadas no se graban por defecto, y si por algún motivo clínico se requiere una grabación, esto solo se realizaría con tu consentimiento explícito y documentado. La única excepción a esta confidencialidad serían situaciones excepcionales contempladas por la ley, como riesgo inminente de daño a ti mismo o a terceros, sospecha de abuso a menores o requerimiento judicial explícito. En estos casos extremadamente raros, solo se compartiría la información mínima necesaria con las autoridades competentes, siguiendo estrictamente los protocolos éticos y legales establecidos."
+            },
+            {
+                "question": "¿Cómo se manejan mis datos médicos y psicológicos?",
+                "answer": "Tus datos médicos y psicológicos reciben el nivel más alto de protección en nuestra plataforma. Toda esta información se clasifica como datos sensibles y está sujeta a medidas de seguridad adicionales. Las notas clínicas, evaluaciones y diagnósticos están encriptados con sistemas avanzados y solo son accesibles para el profesional que te atiende. Si deseas compartir tu historial con un nuevo terapeuta dentro de la plataforma, deberás autorizar específicamente esta transferencia. Cumplimos rigurosamente con las normativas internacionales de protección de datos sanitarios, incluyendo HIPAA (EE.UU.), LOPDGDD (España), LGPD (Brasil) y regulaciones similares en cada país donde operamos. Realizamos evaluaciones periódicas de impacto en la privacidad para identificar y mitigar posibles riesgos. Si lo deseas, puedes solicitar una copia completa de tu historial clínico en formato digital o ejercer tu derecho de rectificación si encuentras información incorrecta."
+            },
+            {
+                "question": "¿Utilizan mis datos para investigación o marketing?",
+                "answer": "Respetamos profundamente tu privacidad y la sensibilidad de la información compartida en un contexto terapéutico. Por defecto, no utilizamos tus datos para investigación ni marketing. Sin embargo, ocasionalmente realizamos estudios anónimos para mejorar nuestros servicios o contribuir al campo de la salud mental. En estos casos, toda la información es completamente anonimizada y agregada, eliminando cualquier dato que pudiera identificarte personalmente. Siempre que queramos utilizar datos para fines de investigación más específicos, te solicitaremos un consentimiento explícito y detallado, explicando claramente el alcance del estudio y tu derecho a negarte sin consecuencias para tu tratamiento. Respecto al marketing, nunca compartimos tus datos con terceros para fines publicitarios. Las comunicaciones promocionales que puedas recibir de nuestra parte son exclusivamente sobre nuestros propios servicios y puedes desactivarlas en cualquier momento desde la configuración de tu cuenta."
+            }
+        ]
+    }
+}
