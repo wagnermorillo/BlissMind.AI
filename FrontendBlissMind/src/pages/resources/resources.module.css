@@ -1,0 +1,315 @@
+.container {
+  padding: 2% 3%;
+}
+
+.title {
+  color: #14279b;
+}
+
+.infoContainer {
+  padding: 0;
+  margin-bottom: 25px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+}
+
+.tabsNavigation {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2%;
+  flex-wrap: wrap;
+}
+
+.tabButton {
+  display: flex;
+  gap: 10px;
+  padding: 15px 32px;
+  color: #14279b;
+  background-color: #f5f4f4;
+  border: 1px solid #ddd;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.active {
+  background-color: #14279b;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 32px;
+
+  &:hover {
+    background-color: #14279b;
+  }
+}
+
+.sectionTitle {
+  color: #272d50;
+  margin-left: 5px;
+}
+
+.articulosGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.articuloCard {
+  border: 1px solid #f0eeee;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.categoriaBadge {
+  display: inline-block;
+  padding: 4px 9px;
+  font-weight: 600;
+  background-color: rgba(20, 39, 155, 0.2);
+  border-radius: 10px;
+}
+
+.readMoreButton {
+  padding: 4px 9px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: "Motiva Sans Bold", serif;
+  color: #14279b;
+
+  &:hover {
+    color: #5b6599;
+  }
+}
+
+.pdfsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+}
+
+.pdfCard {
+  background-color: white;
+  border: 1px solid #f0eeee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pdfIconContainer {
+  padding: 6%;
+  border-radius: 10px 10px 0 0;
+}
+
+.pdfTitle {
+  margin: 15px 0;
+  font-size: 15px;
+  color: #272d50;
+}
+
+.pdfContent {
+  padding: 0 4% 10%;
+}
+
+.downloadButton {
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-family: "Motiva Sans Bold", serif;
+  color: white;
+
+  &:hover {
+    color: #ddd;
+  }
+}
+
+.videosGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.videoCard {
+  background-color: white;
+  border: 1px solid #e5e7eb; 
+  border-radius: 0.5rem; 
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); 
+}
+
+.videoThumbnail {
+  background-color: #e5e7eb; 
+  position: relative;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoDuration {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 0.75rem; 
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.videoContent {
+  padding: 1rem;
+}
+
+.videoTitle {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.videoDescripcion {
+  font-size: 0.875rem;
+  color: #4b5563; 
+  margin-bottom: 0.75rem;
+}
+
+.watchLink {
+  display: flex;
+  align-items: center;
+  color: #4f46e5;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.watchLink:hover {
+  color: #3730a3; 
+}
+
+.watchLink :global(svg) {
+  margin-right: 0.25rem;
+}
+
+.podcastsList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.podcastCard {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  transition: box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.podcastIcon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #456fe0, #14279b);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 1rem;
+}
+
+.podcastContent {
+  flex: 1;
+}
+
+.podcastTitle {
+  font-weight: 600;
+}
+
+.podcastDescripcion {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.podcastCreator {
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+.playButton {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  background-color: #f3f4f6;
+  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e5e7eb;
+  }
+}
+
+.glosarioList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.glosarioItem {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.glosarioTermino {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.glosarioDefinicion {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.glosarioNote {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pdfsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .videosGrid {
+    grid-template-columns: 1fr;
+  }
+}
