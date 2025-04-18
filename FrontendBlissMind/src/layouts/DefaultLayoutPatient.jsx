@@ -29,23 +29,23 @@ const items = [
         icon: <DashboardOutlined />,
         path: "/dashboard-patient",
       },
-      {
-        key: "2",
-        label: "Profesionales",
-        icon: <ContactsOutlined />,
-        path: "/Profesionales",
-      },
+      // {
+      //   key: "2",
+      //   label: "Profesionales",
+      //   icon: <ContactsOutlined />,
+      //   path: "/professionals",
+      // },
       {
         key: "3",
         label: "Actividades",
         icon: <FileSearchOutlined />,
-        path: "/Actividades",
+        path: "/activities",
       },
       {
         key: "4",
         label: "Chat",
         icon: <CommentOutlined />,
-        path: "/Chat",
+        path: "/chat",
       },
       {
         key: "5",
@@ -70,7 +70,7 @@ const items = [
         key: "7",
         label: "Recursos",
         icon: <ReadOutlined />,
-        path: "/Recursos",
+        path: "/resources",
       },
       {
         key: "8",
