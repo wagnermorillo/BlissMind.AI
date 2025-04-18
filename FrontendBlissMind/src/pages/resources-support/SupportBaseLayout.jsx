@@ -6,9 +6,7 @@ const Footer = lazy(() => import("../../components/Footer"));
 const SupportBaseLayout = ({ children }) => {
   return (
     <>
-      <div style={{ display: "flex", alignContent: "center" }}>
-        <Header />
-      </div>
+      <Header />
       {children}
 
       <Footer />

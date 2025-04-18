@@ -59,7 +59,7 @@ span{
 }
 
 li span{
-    font-weight: 500;
+    font-weight: "normal";
     color: #2e186a !important;
 }
 

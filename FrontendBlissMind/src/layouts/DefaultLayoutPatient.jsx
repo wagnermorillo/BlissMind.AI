@@ -194,7 +194,7 @@ const DefaultLayoutPatient = ({ children }) => {
           mode="inline"
           selectedKeys={[selectedKey]}
           items={items}
-          style={{ height: "100%", fontWeight: 600 }}
+          style={{ height: "100%", fontWeight: 400, color: "#2e186a" }}
           className="menu"
           onClick={handleMenuClick}
         />

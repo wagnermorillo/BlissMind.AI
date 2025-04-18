@@ -58,7 +58,7 @@ export default function ChatAi() {
               >
                 {msg.from === "bot" && (
                   <img
-                    src="/../../../public/img/blmai-chatai.png" 
+                    src="/img/blmai-chatai.png" 
                     alt="AI Mascota"
                     className={styles.botAvatar}
                     loading="lazy"
